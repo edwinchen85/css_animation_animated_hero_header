@@ -68,8 +68,9 @@ header:after {
 }
 
 .animate-pop-in {
-  animation: pop-in .6s cubic-bezier(0, .9, .3, 1.2) forwards;
+  animation: no-transform .6s cubic-bezier(0, .9, .3, 1.2) forwards;
   opacity: 0;
+  transform: translateY(-4rem) scale(.8);
 }
 
 .rocky-dashed {
@@ -99,45 +100,13 @@ header:after {
 }
 
 .header-down-arrow img {
-  animation: fade-slide-up 1s 1s ease-out forwards;
+  animation: no-transform 1s 1s ease-out forwards;
   opacity: 0;
+  transform: translateY(4rem);
 }
 
 /* Animations */
-@keyframes no-transfrom {
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@keyframes fade-slide-down {
-  0% {
-    opacity: 0;
-    transform: translateY(-4rem);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@keyframes fade-slide-up {
-  0% {
-    opacity: 0;
-    transform: translateY(4rem);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@keyframes pop-in {
-  0% {
-    opacity: 0;
-    transform: translateY(-4rem) scale(.8);
-  }
+@keyframes no-transform {
   100% {
     opacity: 1;
     transform: none;
