@@ -96,6 +96,11 @@ header:after {
   z-index: 10;
 }
 
+.header-down-arrow img {
+  animation: fade-slide-up 1s 1s forwards;
+  opacity: 0;
+}
+
 /* Animations */
 @keyframes fade-slide-down {
   0% {
