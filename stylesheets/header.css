@@ -65,3 +65,14 @@ header:after {
   z-index: 10;
 }
 
+/* Animations */
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
