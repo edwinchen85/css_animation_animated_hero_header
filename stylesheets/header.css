@@ -68,7 +68,7 @@ header:after {
 }
 
 .animate-pop-in {
-  animation: pop-in .6s ease-out forwards;
+  animation: pop-in .6s cubic-bezier(0, .9, .3, 1.2) forwards;
   opacity: 0;
 }
 
