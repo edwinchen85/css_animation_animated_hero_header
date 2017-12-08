@@ -108,6 +108,17 @@ header:after {
   }
 }
 
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @keyframes pop-in {
   0% {
     opacity: 0;
