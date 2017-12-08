@@ -69,6 +69,23 @@ header:after {
 
 .animate-pop-in {
   animation: pop-in .6s ease-out forwards;
+  opacity: 0;
+}
+
+.rocky-dashed {
+  animation-delay: .6s;
+}
+
+.header-title {
+  animation-delay: .8s;
+}
+
+.header-subtitle {
+  animation-delay: 1s;
+}
+
+.header-button {
+  animation-delay: 1.1s;
 }
 
 /* Animations */
