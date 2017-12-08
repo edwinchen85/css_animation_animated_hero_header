@@ -38,6 +38,7 @@ header:before {
 }
 
 header:after {
+  animation: rotate-up .5s .5s cubic-bezier(0, .5, 0, 1) forwards;
   background: #F9FCFF;
   content: "";
   height: 40rem;
@@ -45,8 +46,6 @@ header:after {
   position: absolute;
     right: -5%;
     top: 90%;
-  -webkit-transform: rotateZ(-4deg);
-          transform: rotateZ(-4deg);
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
 }
