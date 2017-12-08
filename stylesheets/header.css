@@ -88,6 +88,7 @@ header:after {
 }
 
 .header-down-arrow {
+  animation: pulse 2s 3s ease-out infinite;
   position: absolute;
   bottom: 4vh;
   left: 0;
@@ -97,8 +98,7 @@ header:after {
 }
 
 .header-down-arrow img {
-  animation: fade-slide-up 1s 1s ease-out forwards,
-             pulse 2s 3s ease-out infinite;
+  animation: fade-slide-up 1s 1s ease-out forwards;
   opacity: 0;
 }
 
